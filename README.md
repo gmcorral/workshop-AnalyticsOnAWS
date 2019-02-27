@@ -4,7 +4,6 @@ In this workshop you will learn how to implement a whole analytics workflow on A
 
 * upload a dataset to your central data lake,
 * automate the creation of the data catalog,
-* schedule ETL processes that aggregate data from multiple tables and convert them into a compressed columnar format that allows to speed up and reduce the cost of your queries,
 * query the data using standard SQL in a serverless fashion
 * query the data as if it was part of your existing DW
 * create and share rich web-based visualizations
