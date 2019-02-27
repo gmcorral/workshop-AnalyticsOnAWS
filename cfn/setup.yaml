@@ -4,7 +4,7 @@ Transform: AWS::Serverless-2016-10-31
 Parameters:
   WsS3BucketBaseName:
     Type: String
-    Default: justdavid-serverless-analytics-workshop
+    Default: gmenende-shared-files
     Description: Base name of S3 bucket containing the workshop resources
   DataPrefix:
     Default: data/nyc-tlc/
