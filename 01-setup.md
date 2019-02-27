@@ -11,7 +11,7 @@ In this section we are going to use a CloudFormation template to perform the fol
 
 	Region| Code | Launch
 	------|------|-------
-	EU (Ireland) | <span style="font-family:'Courier';">eu-west-1</span> | [![Launch stack in eu-west-1](images/cfn-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=saws&templateURL=https://s3-eu-west-1.amazonaws.com/justdavid-serverless-analytics-workshop-eu-west-1/cfn/setup.yaml)
+	EU (Ireland) | <span style="font-family:'Courier';">eu-west-1</span> | [![Launch stack in eu-west-1](images/cfn-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=saws&templateURL=https://s3-eu-west-1.amazonaws.com/gmenende-shared-files/analytics-workshop/cfn/setup.yaml)
 
 1. Click **Next** on the *Select Template* page.
 

@@ -16,7 +16,7 @@ This is Analytics the AWS way!
 
 ### The dataset
 
-For this workshop we are going to use data made available by the [New York City Taxi and Limousine Commission](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) (TLC).
+For this workshop we are going to use data made available by the [New York City Taxi and Limousine Commission](https://www1.nyc.gov/site/tlc/index.page) (TLC).
 
 Raw CSV-formatted trip record data can be downloaded from the TLC website itself at [https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page). On this page TLC provides monthly extracts on yellow cabs, boro taxis (green) and for-hire vehicles (FHV).
 
