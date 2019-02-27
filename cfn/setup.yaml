@@ -75,7 +75,7 @@ Resources:
                   - !Sub "arn:aws:s3:::${DataBucket}/*"
       CodeUri: 
         Bucket: !Sub "${WsS3BucketBaseName}"
-        Key: "functions/s3copyover.zip"
+        Key: "analytics-workshop/functions/s3copyover.zip"
 
   CopyDataOver:
     Type: "Custom::S3Objects"
