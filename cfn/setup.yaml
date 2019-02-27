@@ -53,8 +53,8 @@ Resources:
                   - "s3:ListBucket"
                   - "s3:GetObject"
                 Resource:
-                  - !Sub "arn:aws:s3:::${WsS3BucketBaseName}-${AWS::Region}"
-                  - !Sub "arn:aws:s3:::${WsS3BucketBaseName}-${AWS::Region}/*"
+                  - !Sub "arn:aws:s3:::${WsS3BucketBaseName}"
+                  - !Sub "arn:aws:s3:::${WsS3BucketBaseName}/*"
               -
                 Sid: DestinationBucketWriteAccess
                 Effect: Allow
@@ -74,14 +74,14 @@ Resources:
                   - !Sub "arn:aws:s3:::${DataBucket}"
                   - !Sub "arn:aws:s3:::${DataBucket}/*"
       CodeUri: 
-        Bucket: !Sub "${WsS3BucketBaseName}-${AWS::Region}"
+        Bucket: !Sub "${WsS3BucketBaseName}"
         Key: "functions/s3copyover.zip"
 
   CopyDataOver:
     Type: "Custom::S3Objects"
     Properties:
       ServiceToken: !GetAtt S3ObjectsHelperFunction.Arn
-      SourceBucket: !Sub "${WsS3BucketBaseName}-${AWS::Region}"
+      SourceBucket: !Sub "${WsS3BucketBaseName}"
       SourcePrefix: !Sub "${DataPrefix}"
       Bucket: !Ref DataBucket
       Prefix: !Sub "${DataPrefix}"
