@@ -32,8 +32,7 @@ You can use data from any month avaiable. In this particular example we are goin
 1. [Upload the dataset](01-setup.md)
 2. [Create the data catalog with AWS Glue](02-data-catalog.md)
 3. [Data discovery with Amazon Athena](03-data-discovery.md)
-4. [ETL with AWS Glue](04-etl.md)
-5. [Create rich web-based visualizations with Amazon QuickSight](05-visualization.md)
+4. [Create rich web-based visualizations with Amazon QuickSight](05-visualization.md)
 
 
 
